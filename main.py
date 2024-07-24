@@ -24,32 +24,56 @@ def scrap_brochures(html: str):
     #Remove the last table as it not contains books
     brochure_tables.pop()
 
-    pprint(len(brochure_tables))
-
     data = {
         "authors": [
             {"name": "William Branham"},
             {"name": "Ewald Franck"},
+            {"name": "Traités"},
             {"name": "Autres auteurs"},
         ],
     }
 
+    author_index = 0
+    books = []
+
     for table in all_tables:
         if table in author_tables:
-            author = author_tables[0]
+            author_table = author_tables[author_index]
+            author_name = data["authors"][author_index]["name"]
+            author_index += 1
 
-        # category = tab > tr[1] > td > font.text
-        # tds [] = tab > tr[4] or tr[5] if category == "Traités"
+        elif table in brochure_tables:
+            category = table.find("tr").text.replace("\n", "")
+            if category == "Traités":
+                start_index = 5
+            else:
+                start_index = 4
 
-        # title =  tds[2] > font.text
-        # html_content = tds[3] > div > font > a.href
-        # pdf_file = tds[4] > div > font > a if a.text == "Imprimer"
+            rows = table.find_all("tr")[start_index:]
 
-        # Autres ...
 
-        # Lettres circulaires => "http://cmpp.ch//lettre_circulaire.htm"
-        # - Date, Contenu, Lien htm, Lien PDF
-        # Somaire
+            for row in rows:
+                tds = row.find_all("td")
+                if author_name.startswith("William"):
+                    books.append({
+                        "title": tds[1].find("font").text.strip(),
+                        "html": tds[2].find("a").get("href"),
+                        "pdf": tds[3].find("a").get("href") if tds[3].find("a").text == "Imprimer" else "En cours",
+                        "epub": tds[4].find("a").get("href") if tds[4].find("a").text == "Télécharger" else "En cours",
+                        "category": category,
+                        "author": author_name,
+                    })
+                else:
+                    books.append({
+                        "title": tds[0].find("font").text.strip(),
+                        "html": tds[1].find("a").get("href"),
+                        "pdf": tds[2].find("a").get("href") if tds[2].find("a").text == "Imprimer" else "En cours",
+                        "epub": tds[3].find("a").get("href") if tds[3].find("a").text == "Télécharger" else "En cours",
+                        "category": category,
+                        "author": author_name,
+                    })
+
+    pprint(books)
 
 
 if __name__ == "__main__":
