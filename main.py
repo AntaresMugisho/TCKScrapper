@@ -3,18 +3,9 @@ from bs4 import BeautifulSoup
 
 soup = BeautifulSoup()
 
+
 def scrap(html):
     print("Scrapping started...")
-
-
-if __name__ == "__main__":
-    url = "http://cmpp.ch//brochures.htm"
-
-    try:
-        response = requests.get(url)
-        print(response.text)
-    except requests.RequestException as e:
-        print(f"Error: {e}")
 
     # Parole parlée, brochures, livres, ...
 
@@ -30,5 +21,27 @@ if __name__ == "__main__":
     # Autres ...
 
     # Lettres circulaires => "http://cmpp.ch//lettre_circulaire.htm"
-            # - Date, Contenu, Lien htm, Lien PDF
+        # - Date, Contenu, Lien htm, Lien PDF
     # Somaire
+
+
+if __name__ == "__main__":
+    with open("brochures.html", "r") as file:
+        html = file.read()
+        scrap(html)
+
+    # url = "http://cmpp.ch//brochures.htm"
+    # url2 = "http://cmpp.ch//lettre_circulaire.htm"
+    #
+    # try:
+    #     response = requests.get(url)
+    #     html = response.text
+    #     with open("brochures.html", "w") as file:
+    #         file.write(html)
+    # except requests.RequestException as e:
+    #     print(f"Error: {e}")
+    #
+    # else:
+    #     with open("brochures.html", "r") as file:
+    #         html = file.read()
+    #         scrap(html)
