@@ -1,4 +1,5 @@
 {
+    "last_update": "2024-07-25T17:15:24.326018",
     "authors": [
         {
             "id": 1,
@@ -73,6 +74,7 @@
     ],
     "books": [
         {
+            "id": 1,
             "author_id": 1,
             "category_id": 1,
             "title": "Reconnaissez le jour et son message",
@@ -81,6 +83,7 @@
             "epub": "serie1no1.epub"
         },
         {
+            "id": 2,
             "author_id": 1,
             "category_id": 1,
             "title": "La nourriture spirituelle au temps convenable Dieu et son propre interpr\u00e8te",
@@ -89,6 +92,7 @@
             "epub": "serie1no2.epub"
         },
         {
+            "id": 3,
             "author_id": 1,
             "category_id": 1,
             "title": "Les oints du temps de la fin",
@@ -97,6 +101,7 @@
             "epub": "serie1no3.epub"
         },
         {
+            "id": 4,
             "author_id": 1,
             "category_id": 1,
             "title": "Le messager du temps de la fin",
@@ -105,6 +110,7 @@
             "epub": "serie1no4.epub"
         },
         {
+            "id": 5,
             "author_id": 1,
             "category_id": 1,
             "title": "La stature de l'homme parfait",
@@ -113,6 +119,7 @@
             "epub": "serie1no5.epub"
         },
         {
+            "id": 6,
             "author_id": 1,
             "category_id": 1,
             "title": "Dieu d\u00e9voil\u00e9",
@@ -121,6 +128,7 @@
             "epub": "serie1no6.epub"
         },
         {
+            "id": 7,
             "author_id": 1,
             "category_id": 1,
             "title": "Ev\u00e9nements modernes",
@@ -129,6 +137,7 @@
             "epub": "serie1no7.epub"
         },
         {
+            "id": 8,
             "author_id": 1,
             "category_id": 1,
             "title": "Les douleurs de l\u2019enfantement",
@@ -137,6 +146,7 @@
             "epub": "serie1no8.epub"
         },
         {
+            "id": 9,
             "author_id": 1,
             "category_id": 1,
             "title": "L\u2019accusation",
@@ -145,6 +155,7 @@
             "epub": "serie1no9.epub"
         },
         {
+            "id": 10,
             "author_id": 1,
             "category_id": 1,
             "title": "Le lever du soleil",
@@ -153,6 +164,7 @@
             "epub": "serie1no10.epub"
         },
         {
+            "id": 11,
             "author_id": 1,
             "category_id": 1,
             "title": "Christ est la r\u00e9v\u00e9lation du myst\u00e8re de Dieu",
@@ -161,6 +173,7 @@
             "epub": "serie1no11.epub"
         },
         {
+            "id": 12,
             "author_id": 1,
             "category_id": 1,
             "title": "Discerner le Corps du Seigneur Le Repas du Seigneur",
@@ -169,6 +182,7 @@
             "epub": "serie1no12.epub"
         },
         {
+            "id": 13,
             "author_id": 1,
             "category_id": 2,
             "title": "Le Signe",
@@ -177,6 +191,7 @@
             "epub": "serie2no1.epub"
         },
         {
+            "id": 14,
             "author_id": 1,
             "category_id": 2,
             "title": "Pouss\u00e9s \u00e0 bout",
@@ -185,6 +200,7 @@
             "epub": "serie2no2.epub"
         },
         {
+            "id": 15,
             "author_id": 1,
             "category_id": 2,
             "title": "L'Absolu",
@@ -193,6 +209,7 @@
             "epub": "serie2no3.epub"
         },
         {
+            "id": 16,
             "author_id": 1,
             "category_id": 2,
             "title": "Comment puis-je vaincre?",
@@ -201,6 +218,7 @@
             "epub": "serie2no4.epub"
         },
         {
+            "id": 17,
             "author_id": 1,
             "category_id": 2,
             "title": "Qu\u2019est-ce que le Saint-Esprit?",
@@ -209,6 +227,7 @@
             "epub": "serie2no5.epub"
         },
         {
+            "id": 18,
             "author_id": 1,
             "category_id": 2,
             "title": "Pourquoi le Saint-Esprit a \u00e9t\u00e9 donn\u00e9?",
@@ -217,6 +236,7 @@
             "epub": "serie2no6.epub"
         },
         {
+            "id": 19,
             "author_id": 1,
             "category_id": 2,
             "title": "Restitution de l'Arbre de l\u2019Epouse",
@@ -225,6 +245,7 @@
             "epub": "serie2no7.epub"
         },
         {
+            "id": 20,
             "author_id": 1,
             "category_id": 2,
             "title": "Votre vie est-elle digne de l'Evangile?",
@@ -233,6 +254,7 @@
             "epub": "serie2no8.epub"
         },
         {
+            "id": 21,
             "author_id": 1,
             "category_id": 2,
             "title": "Dieu confirmant Sa Parole",
@@ -241,6 +263,7 @@
             "epub": "serie2no9.epub"
         },
         {
+            "id": 22,
             "author_id": 1,
             "category_id": 2,
             "title": "Les oeuvres sont l'expression de la foi",
@@ -249,6 +272,7 @@
             "epub": "serie2no10.epub"
         },
         {
+            "id": 23,
             "author_id": 1,
             "category_id": 2,
             "title": "Le seul lieu d'adoration auquel Dieu ait pourvu",
@@ -257,6 +281,7 @@
             "epub": "serie2no11.epub"
         },
         {
+            "id": 24,
             "author_id": 1,
             "category_id": 2,
             "title": "Le dieu de cet \u00e2ge mauvais",
@@ -265,6 +290,7 @@
             "epub": "serie2no12.epub"
         },
         {
+            "id": 25,
             "author_id": 1,
             "category_id": 3,
             "title": "Debout dans la br\u00e8che",
@@ -273,6 +299,7 @@
             "epub": "serie3no1.epub"
         },
         {
+            "id": 26,
             "author_id": 1,
             "category_id": 3,
             "title": "Le signal rouge de Sa venue",
@@ -281,6 +308,7 @@
             "epub": "serie3no2.epub"
         },
         {
+            "id": 27,
             "author_id": 1,
             "category_id": 3,
             "title": "Le troisi\u00e8me exode",
@@ -289,6 +317,7 @@
             "epub": "serie3no3.epub"
         },
         {
+            "id": 28,
             "author_id": 1,
             "category_id": 3,
             "title": "Pourquoi crier? Parle!",
@@ -297,6 +326,7 @@
             "epub": "serie3no4.epub"
         },
         {
+            "id": 29,
             "author_id": 1,
             "category_id": 3,
             "title": "Paul, prisonnier de Christ",
@@ -305,6 +335,7 @@
             "epub": "serie3no5.epub"
         },
         {
+            "id": 30,
             "author_id": 1,
             "category_id": 3,
             "title": "Il prend soin. Et vous?",
@@ -313,6 +344,7 @@
             "epub": "serie3no6.epub"
         },
         {
+            "id": 31,
             "author_id": 1,
             "category_id": 3,
             "title": "Avertissement, puis jugement",
@@ -321,6 +353,7 @@
             "epub": "serie3no7.epub"
         },
         {
+            "id": 32,
             "author_id": 1,
             "category_id": 3,
             "title": "Le temps et le signe de l\u2019union",
@@ -329,6 +362,7 @@
             "epub": "serie3no8.epub"
         },
         {
+            "id": 33,
             "author_id": 1,
             "category_id": 3,
             "title": "Foi parfaite",
@@ -337,6 +371,7 @@
             "epub": "serie3no9.epub"
         },
         {
+            "id": 34,
             "author_id": 1,
             "category_id": 3,
             "title": "Les \u00e2mes qui sont prison maintenant",
@@ -345,6 +380,7 @@
             "epub": "serie3no10.epub"
         },
         {
+            "id": 35,
             "author_id": 1,
             "category_id": 3,
             "title": "Celui qui est en vous",
@@ -353,6 +389,7 @@
             "epub": "serie3no11.epub"
         },
         {
+            "id": 36,
             "author_id": 1,
             "category_id": 3,
             "title": "Que ferai-je de J\u00e9sus appel\u00e9 Christ?",
@@ -361,6 +398,7 @@
             "epub": "serie3no12.epub"
         },
         {
+            "id": 37,
             "author_id": 1,
             "category_id": 4,
             "title": "Trois sortes de croyants",
@@ -369,6 +407,7 @@
             "epub": "serie4no1.epub"
         },
         {
+            "id": 38,
             "author_id": 1,
             "category_id": 4,
             "title": "Dons appropri\u00e9s",
@@ -377,6 +416,7 @@
             "epub": "serie4no2.epub"
         },
         {
+            "id": 39,
             "author_id": 1,
             "category_id": 4,
             "title": "L'ordre dans l\u2019Eglise",
@@ -385,6 +425,7 @@
             "epub": "serie4no3.epub"
         },
         {
+            "id": 40,
             "author_id": 1,
             "category_id": 4,
             "title": "Il y a ici un Homme qui peut allumer la lumi\u00e8re",
@@ -393,6 +434,7 @@
             "epub": "serie4no4.epub"
         },
         {
+            "id": 41,
             "author_id": 1,
             "category_id": 4,
             "title": "Tourner les regards vers J\u00e9sus",
@@ -401,6 +443,7 @@
             "epub": "serie4no5.epub"
         },
         {
+            "id": 42,
             "author_id": 1,
             "category_id": 4,
             "title": "L\u2019original",
@@ -409,6 +452,7 @@
             "epub": "serie4no6.epub"
         },
         {
+            "id": 43,
             "author_id": 1,
             "category_id": 4,
             "title": "La f\u00eate des trompettes",
@@ -417,6 +461,7 @@
             "epub": "serie4no7.epub"
         },
         {
+            "id": 44,
             "author_id": 1,
             "category_id": 4,
             "title": "Allant au-del\u00e0 du Camp",
@@ -425,6 +470,7 @@
             "epub": "serie4no8.epub"
         },
         {
+            "id": 45,
             "author_id": 1,
             "category_id": 4,
             "title": "Citernes crevass\u00e9es",
@@ -433,6 +479,7 @@
             "epub": "serie4no9.epub"
         },
         {
+            "id": 46,
             "author_id": 1,
             "category_id": 4,
             "title": "La demeure future de l\u2019Epoux C\u00e9leste et de l\u2019Epouse terrestre",
@@ -441,6 +488,7 @@
             "epub": "serie4no10.epub"
         },
         {
+            "id": 47,
             "author_id": 1,
             "category_id": 4,
             "title": "L\u2019homme fuyant loin de la pr\u00e9sence du Seigneur",
@@ -449,6 +497,7 @@
             "epub": "serie4no11.epub"
         },
         {
+            "id": 48,
             "author_id": 1,
             "category_id": 4,
             "title": "La Semence n\u2019h\u00e9ritera pas avec la balle",
@@ -457,6 +506,7 @@
             "epub": "serie4no12.epub"
         },
         {
+            "id": 49,
             "author_id": 1,
             "category_id": 5,
             "title": "Le lieu d\u2019adoration choisi par Dieu",
@@ -465,6 +515,7 @@
             "epub": "serie5no1.epub"
         },
         {
+            "id": 50,
             "author_id": 1,
             "category_id": 5,
             "title": "Qui est ce Melchis\u00e9dec?",
@@ -473,6 +524,7 @@
             "epub": "serie5no2.epub"
         },
         {
+            "id": 51,
             "author_id": 1,
             "category_id": 5,
             "title": "Arrive-t-il \u00e0 Dieu de changer Sa pens\u00e9e au sujet de Sa Parole?",
@@ -481,6 +533,7 @@
             "epub": "serie5no3.epub"
         },
         {
+            "id": 52,
             "author_id": 1,
             "category_id": 5,
             "title": "Honteux de Lui",
@@ -489,6 +542,7 @@
             "epub": "serie5no4.epub"
         },
         {
+            "id": 53,
             "author_id": 1,
             "category_id": 5,
             "title": "Rendre un service \u00e0 Dieu en dehors de Sa Volont\u00e9",
@@ -497,6 +551,7 @@
             "epub": "serie5no5.epub"
         },
         {
+            "id": 54,
             "author_id": 1,
             "category_id": 5,
             "title": "Quelle attraction y a-t-il sur la montagne?",
@@ -505,6 +560,7 @@
             "epub": "serie5no6.epub"
         },
         {
+            "id": 55,
             "author_id": 1,
             "category_id": 5,
             "title": "Et vous ne le savez pas!",
@@ -513,6 +569,7 @@
             "epub": "serie5no7.epub"
         },
         {
+            "id": 56,
             "author_id": 1,
             "category_id": 5,
             "title": "Christ est r\u00e9v\u00e9l\u00e9 dans Sa propre Parole",
@@ -521,6 +578,7 @@
             "epub": "serie5no8.epub"
         },
         {
+            "id": 57,
             "author_id": 1,
             "category_id": 5,
             "title": "L\u2019Eden de Satan",
@@ -529,6 +587,7 @@
             "epub": "serie5no9.epub"
         },
         {
+            "id": 58,
             "author_id": 1,
             "category_id": 5,
             "title": "Le pouvoir de Dieu pour transformer",
@@ -537,6 +596,7 @@
             "epub": "serie5no10.epub"
         },
         {
+            "id": 59,
             "author_id": 1,
             "category_id": 5,
             "title": "L\u2019union invisible de l\u2019Epouse de Christ",
@@ -545,6 +605,7 @@
             "epub": "serie5no11.epub"
         },
         {
+            "id": 60,
             "author_id": 1,
             "category_id": 5,
             "title": "Compte \u00e0 rebours",
@@ -553,6 +614,7 @@
             "epub": "serie5no12.epub"
         },
         {
+            "id": 61,
             "author_id": 1,
             "category_id": 6,
             "title": "Le choix d\u2019une Epouse",
@@ -561,6 +623,7 @@
             "epub": "serie6no1.epub"
         },
         {
+            "id": 62,
             "author_id": 1,
             "category_id": 6,
             "title": "D\u2019apr\u00e8s-vous, de Quoi s\u2019agit-il?",
@@ -569,6 +632,7 @@
             "epub": "serie6no2.epub"
         },
         {
+            "id": 63,
             "author_id": 1,
             "category_id": 6,
             "title": "Soif",
@@ -577,6 +641,7 @@
             "epub": "serie6no3.epub"
         },
         {
+            "id": 64,
             "author_id": 1,
             "category_id": 6,
             "title": "L\u2019enl\u00e8vement",
@@ -585,6 +650,7 @@
             "epub": "serie6no4.epub"
         },
         {
+            "id": 65,
             "author_id": 1,
             "category_id": 6,
             "title": "Le patriarche Abraham",
@@ -593,6 +659,7 @@
             "epub": "serie6no5.epub"
         },
         {
+            "id": 66,
             "author_id": 1,
             "category_id": 7,
             "title": "Les aigles de Dieu",
@@ -601,6 +668,7 @@
             "epub": "les_aigles_de_dieu.epub"
         },
         {
+            "id": 67,
             "author_id": 1,
             "category_id": 7,
             "title": "Mariage et Divorce",
@@ -609,6 +677,7 @@
             "epub": "mariage_et_divorce.epub"
         },
         {
+            "id": 68,
             "author_id": 1,
             "category_id": 7,
             "title": "La profondeur appelle la profondeur",
@@ -617,6 +686,7 @@
             "epub": "la_profondeur.epub"
         },
         {
+            "id": 69,
             "author_id": 1,
             "category_id": 7,
             "title": "La plus grande bataille jamais livr\u00e9e",
@@ -625,6 +695,7 @@
             "epub": "grande_bataille.epub"
         },
         {
+            "id": 70,
             "author_id": 1,
             "category_id": 7,
             "title": "Le Chef-d\u2019Oeuvre",
@@ -633,6 +704,7 @@
             "epub": "chef_oeuvre.epub"
         },
         {
+            "id": 71,
             "author_id": 1,
             "category_id": 7,
             "title": "Messieurs, est-ce l\u2019heure?",
@@ -641,6 +713,7 @@
             "epub": "messieurs_est_ce_l_heure.epub"
         },
         {
+            "id": 72,
             "author_id": 1,
             "category_id": 7,
             "title": "Pourquoi je suis contre les religions organis\u00e9es",
@@ -649,6 +722,7 @@
             "epub": "pourquoi_contre_les_religions.epub"
         },
         {
+            "id": 73,
             "author_id": 1,
             "category_id": 7,
             "title": "La Parole parl\u00e9e est la Semence originelle",
@@ -657,6 +731,7 @@
             "epub": "parole_parlee_semence_originelle.epub"
         },
         {
+            "id": 74,
             "author_id": 1,
             "category_id": 8,
             "title": "La R\u00e9v\u00e9lation",
@@ -665,6 +740,7 @@
             "epub": "rev01.epub"
         },
         {
+            "id": 75,
             "author_id": 1,
             "category_id": 8,
             "title": "Vision de Patmos",
@@ -673,6 +749,7 @@
             "epub": "rev02.epub"
         },
         {
+            "id": 76,
             "author_id": 1,
             "category_id": 8,
             "title": "Age d'Eph\u00e8se",
@@ -681,6 +758,7 @@
             "epub": "rev03.epub"
         },
         {
+            "id": 77,
             "author_id": 1,
             "category_id": 8,
             "title": "Age de Smyrne",
@@ -689,6 +767,7 @@
             "epub": "rev04.epub"
         },
         {
+            "id": 78,
             "author_id": 1,
             "category_id": 8,
             "title": "Age de Pergame",
@@ -697,6 +776,7 @@
             "epub": "rev05.epub"
         },
         {
+            "id": 79,
             "author_id": 1,
             "category_id": 8,
             "title": "Age de Thyatire",
@@ -705,6 +785,7 @@
             "epub": "rev06.epub"
         },
         {
+            "id": 80,
             "author_id": 1,
             "category_id": 8,
             "title": "Age de Sardes",
@@ -713,6 +794,7 @@
             "epub": "rev07.epub"
         },
         {
+            "id": 81,
             "author_id": 1,
             "category_id": 8,
             "title": "Age de Philadelphie",
@@ -721,6 +803,7 @@
             "epub": "rev08.epub"
         },
         {
+            "id": 82,
             "author_id": 1,
             "category_id": 8,
             "title": "Les 10 vierges",
@@ -729,6 +812,7 @@
             "epub": "rev09.epub"
         },
         {
+            "id": 83,
             "author_id": 1,
             "category_id": 8,
             "title": "Age de Laodic\u00e9e",
@@ -737,6 +821,7 @@
             "epub": "rev10.epub"
         },
         {
+            "id": 84,
             "author_id": 1,
             "category_id": 8,
             "title": "Apocalypse, Chapitre quatre",
@@ -745,6 +830,7 @@
             "epub": "rev11.epub"
         },
         {
+            "id": 85,
             "author_id": 1,
             "category_id": 8,
             "title": "Les 24 anciens",
@@ -753,6 +839,7 @@
             "epub": "rev12.epub"
         },
         {
+            "id": 86,
             "author_id": 1,
             "category_id": 8,
             "title": "Le Tr\u00f4ne",
@@ -761,6 +848,7 @@
             "epub": "rev13.epub"
         },
         {
+            "id": 87,
             "author_id": 1,
             "category_id": 8,
             "title": "Le Serpent \u00e9cras\u00e9",
@@ -769,6 +857,7 @@
             "epub": "rev14.epub"
         },
         {
+            "id": 88,
             "author_id": 1,
             "category_id": 8,
             "title": "Apocalypse, Chapitre cinq",
@@ -777,6 +866,7 @@
             "epub": "rev15.epub"
         },
         {
+            "id": 89,
             "author_id": 1,
             "category_id": 9,
             "title": "Dieu cach\u00e9 et r\u00e9v\u00e9l\u00e9 dans la simplicit\u00e9",
@@ -785,6 +875,7 @@
             "epub": "7sceaux1.epub"
         },
         {
+            "id": 90,
             "author_id": 1,
             "category_id": 9,
             "title": "Br\u00e8che (entre les sept \u00e2ges de l\u2019Eglise et les sept Sceaux)",
@@ -793,6 +884,7 @@
             "epub": "7sceaux2.epub"
         },
         {
+            "id": 91,
             "author_id": 1,
             "category_id": 9,
             "title": "Premier Sceau",
@@ -801,6 +893,7 @@
             "epub": "7sceaux3.epub"
         },
         {
+            "id": 92,
             "author_id": 1,
             "category_id": 9,
             "title": "Deuxi\u00e8me Sceau",
@@ -809,6 +902,7 @@
             "epub": "7sceaux4.epub"
         },
         {
+            "id": 93,
             "author_id": 1,
             "category_id": 9,
             "title": "Troisi\u00e8me Sceau",
@@ -817,6 +911,7 @@
             "epub": "7sceaux5.epub"
         },
         {
+            "id": 94,
             "author_id": 1,
             "category_id": 9,
             "title": "Quatri\u00e8me Sceau",
@@ -825,6 +920,7 @@
             "epub": "7sceaux6.epub"
         },
         {
+            "id": 95,
             "author_id": 1,
             "category_id": 9,
             "title": "Cinqui\u00e8me Sceau",
@@ -833,6 +929,7 @@
             "epub": "7sceaux7.epub"
         },
         {
+            "id": 96,
             "author_id": 1,
             "category_id": 9,
             "title": "Sixi\u00e8me Sceau",
@@ -841,6 +938,7 @@
             "epub": "7sceaux8.epub"
         },
         {
+            "id": 97,
             "author_id": 1,
             "category_id": 9,
             "title": "Questions et r\u00e9ponses sur les Sceaux",
@@ -849,6 +947,7 @@
             "epub": "7sceaux9.epub"
         },
         {
+            "id": 98,
             "author_id": 1,
             "category_id": 9,
             "title": "Septi\u00e8me Sceau",
@@ -857,6 +956,7 @@
             "epub": "7sceaux10.epub"
         },
         {
+            "id": 99,
             "author_id": 2,
             "category_id": 10,
             "title": "La Parole de Dieu demeure Eternellement",
@@ -865,6 +965,7 @@
             "epub": "la_parole_de_dieu_demeure_eternellement.epub"
         },
         {
+            "id": 100,
             "author_id": 2,
             "category_id": 10,
             "title": "Le Conseil de Dieu",
@@ -873,6 +974,7 @@
             "epub": false
         },
         {
+            "id": 101,
             "author_id": 2,
             "category_id": 10,
             "title": "Impact de la r\u00e9v\u00e9lation",
@@ -881,6 +983,7 @@
             "epub": "impact.epub"
         },
         {
+            "id": 102,
             "author_id": 2,
             "category_id": 10,
             "title": "Christ et Son Eglise dans la proph\u00e9tie",
@@ -889,6 +992,7 @@
             "epub": "christ_et_son_eglise.epub"
         },
         {
+            "id": 103,
             "author_id": 2,
             "category_id": 10,
             "title": "Le retour de Christ",
@@ -897,6 +1001,7 @@
             "epub": "retour.epub"
         },
         {
+            "id": 104,
             "author_id": 2,
             "category_id": 10,
             "title": "Le Christianisme hier et aujourd\u2019hui",
@@ -905,6 +1010,7 @@
             "epub": "christianisme.epub"
         },
         {
+            "id": 105,
             "author_id": 2,
             "category_id": 10,
             "title": "Dieu et Son plan pour l\u2019humanit\u00e9",
@@ -913,6 +1019,7 @@
             "epub": "dieu_et_son_plan.epub"
         },
         {
+            "id": 106,
             "author_id": 2,
             "category_id": 10,
             "title": "Bapt\u00eame, Repas du Seigneur, Lavage des pieds",
@@ -921,6 +1028,7 @@
             "epub": "brl.epub"
         },
         {
+            "id": 107,
             "author_id": 2,
             "category_id": 10,
             "title": "L\u2019Antichrist",
@@ -929,6 +1037,7 @@
             "epub": "antichrist.epub"
         },
         {
+            "id": 108,
             "author_id": 2,
             "category_id": 10,
             "title": "Il est \u00e9crit\u2026",
@@ -937,6 +1046,7 @@
             "epub": "il_est_ecrit.epub"
         },
         {
+            "id": 109,
             "author_id": 2,
             "category_id": 10,
             "title": "William Branham \u2013 Un proph\u00e8te envoy\u00e9 par Dieu",
@@ -945,6 +1055,7 @@
             "epub": "william.epub"
         },
         {
+            "id": 110,
             "author_id": 2,
             "category_id": 10,
             "title": "Le mariage: probl\u00e8me ancien",
@@ -953,6 +1064,7 @@
             "epub": "mariage_frank.epub"
         },
         {
+            "id": 111,
             "author_id": 2,
             "category_id": 10,
             "title": "La grande trag\u00e9die et le plan du salut de Dieu\u2026",
@@ -961,6 +1073,7 @@
             "epub": "tragedie.epub"
         },
         {
+            "id": 112,
             "author_id": 2,
             "category_id": 10,
             "title": "La religion de l\u2019Islam\u2026",
@@ -969,6 +1082,7 @@
             "epub": "islam.epub"
         },
         {
+            "id": 113,
             "author_id": 2,
             "category_id": 10,
             "title": "Au commencement \u00e9tait la Parole \u2014 pas l'interpr\u00e9tation",
@@ -977,6 +1091,7 @@
             "epub": "commencement.epub"
         },
         {
+            "id": 114,
             "author_id": 2,
             "category_id": 10,
             "title": "Information globale \u2014 Eclaircissement d'En-haut",
@@ -985,6 +1100,7 @@
             "epub": "information_globale.epub"
         },
         {
+            "id": 115,
             "author_id": 2,
             "category_id": 10,
             "title": "Des personnes interrogent\u2026 Dieu r\u00e9pond par Sa Parole",
@@ -993,6 +1109,7 @@
             "epub": "questions_reponses_ef.epub"
         },
         {
+            "id": 116,
             "author_id": 2,
             "category_id": 11,
             "title": "Le Christianisme Traditionnel \u2014 V\u00e9rit\u00e9 ou tromperie?",
@@ -1001,6 +1118,7 @@
             "epub": false
         },
         {
+            "id": 117,
             "author_id": 2,
             "category_id": 11,
             "title": "L\u2019Apocalypse \u2014 un livre scell\u00e9 de sept sceaux?",
@@ -1009,6 +1127,7 @@
             "epub": false
         },
         {
+            "id": 118,
             "author_id": 2,
             "category_id": 11,
             "title": "Le d\u00e9fi de la th\u00e9ologie et plus\u2026",
@@ -1017,6 +1136,7 @@
             "epub": false
         },
         {
+            "id": 119,
             "author_id": 2,
             "category_id": 12,
             "title": "L\u2019indicateur",
@@ -1025,6 +1145,7 @@
             "epub": "l_indicateur.epub"
         },
         {
+            "id": 120,
             "author_id": 2,
             "category_id": 12,
             "title": "Le chemin qui m\u00e8ne \u00e0 Dieu",
@@ -1033,6 +1154,7 @@
             "epub": "le_chemin_qui_mene_a_dieu.epub"
         },
         {
+            "id": 121,
             "author_id": 2,
             "category_id": 12,
             "title": "Vision 7000 \u2014 Information globale",
@@ -1041,6 +1163,7 @@
             "epub": "vision_7000.epub"
         },
         {
+            "id": 122,
             "author_id": 2,
             "category_id": 12,
             "title": "Je suis un vrai t\u00e9moin",
@@ -1049,6 +1172,7 @@
             "epub": "vraitemoin.epub"
         },
         {
+            "id": 123,
             "author_id": 2,
             "category_id": 12,
             "title": "R\u00e9flexions sur les 70 semaines de Daniel",
@@ -1057,6 +1181,7 @@
             "epub": "les_70_semaines_de_daniel.epub"
         },
         {
+            "id": 124,
             "author_id": 2,
             "category_id": 12,
             "title": "Lettre ouverte: Le peuple et le pays d\u2019Isra\u00ebl",
@@ -1065,6 +1190,7 @@
             "epub": "lettre_ouverte.epub"
         },
         {
+            "id": 125,
             "author_id": 2,
             "category_id": 12,
             "title": "Pr\u00e9dication \u00e0 Bruxelles, le samedi 9 avril 1988",
@@ -1073,6 +1199,7 @@
             "epub": "predication_bruxelles_1988.epub"
         },
         {
+            "id": 126,
             "author_id": 3,
             "category_id": 13,
             "title": "Quand Dieu devint homme",
@@ -1081,6 +1208,7 @@
             "epub": "quand_dieu_devint_un_homme.epub"
         },
         {
+            "id": 127,
             "author_id": 3,
             "category_id": 13,
             "title": "De quel bapt\u00eame avez-vous donc \u00e9t\u00e9 baptis\u00e9?",
@@ -1089,6 +1217,7 @@
             "epub": "quel_bapteme.epub"
         },
         {
+            "id": 128,
             "author_id": 3,
             "category_id": 13,
             "title": "Le bapt\u00eame? Une question importante!",
@@ -1097,6 +1226,7 @@
             "epub": "bapteme_une_question_importante.epub"
         },
         {
+            "id": 129,
             "author_id": 3,
             "category_id": 13,
             "title": "Le savez-vous\u2026?",
@@ -1105,6 +1235,7 @@
             "epub": "savez-vous.epub"
         },
         {
+            "id": 130,
             "author_id": 4,
             "category_id": 12,
             "title": "Le s\u00e9ducteur \u2014 Ca\u00efn et le p\u00e9ch\u00e9 originel",
@@ -1113,6 +1244,7 @@
             "epub": "eden.epub"
         },
         {
+            "id": 131,
             "author_id": 4,
             "category_id": 12,
             "title": "La nouvelle naissance",
@@ -1121,6 +1253,7 @@
             "epub": "nouvelle_naissance.epub"
         },
         {
+            "id": 132,
             "author_id": 4,
             "category_id": 12,
             "title": "La paille et le froment",
@@ -1129,6 +1262,7 @@
             "epub": "paille_et_froment.epub"
         },
         {
+            "id": 133,
             "author_id": 4,
             "category_id": 12,
             "title": "Votre attention s.v.p.!",
@@ -1137,6 +1271,7 @@
             "epub": "votre_attention.epub"
         },
         {
+            "id": 134,
             "author_id": 4,
             "category_id": 12,
             "title": "La gr\u00e2ce et la V\u00e9rit\u00e9",
@@ -1145,6 +1280,7 @@
             "epub": "grace_verite.epub"
         },
         {
+            "id": 135,
             "author_id": 4,
             "category_id": 12,
             "title": "L\u2019onction du temps de la fin",

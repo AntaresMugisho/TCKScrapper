@@ -1,0 +1,965 @@
+{
+    "last_update": "2024-07-25T17:15:24.429176",
+    "letters": [
+        {
+            "id": 1,
+            "date": "Septembre 1966/ Juin 1968",
+            "contents": [
+                "La Parole de Dieu demeure Eternellement"
+            ],
+            "html": "la_parole_de_dieu_demeure_eternellement.htm",
+            "pdf": "la_parole_de_dieu_demeure_eternellement.pdf",
+            "epub": "la_parole_de_dieu_demeure_eternellement.epub"
+        },
+        {
+            "id": 2,
+            "date": "Mars 1972",
+            "contents": [
+                "J\u00e9sus-Christ est le fondement",
+                "\u0093Fortifie toi et prends courage\u0094",
+                "Mise au point sur l'ann\u00e9e 1977"
+            ],
+            "html": "lc_mars_1972.htm",
+            "pdf": "lc_mars_1972.pdf",
+            "epub": "lc_mars_1972.epub"
+        },
+        {
+            "id": 3,
+            "date": "Septembre 1972",
+            "contents": [
+                "Questions et r\u00e9ponses",
+                "Eglise de J\u00e9sus-Christ",
+                "Qui a part \u00e0 l'\u00e9dification de l'Eglise",
+                "La vraie Eglise en tant que corps de Christ",
+                "Dieu a \u00e9tabli",
+                "Etablissement des anciens"
+            ],
+            "html": "lc_septembre_1972.htm",
+            "pdf": "lc_septembre_1972.pdf",
+            "epub": "lc_septembre_1972.epub"
+        },
+        {
+            "id": 4,
+            "date": "Janvier 1973",
+            "contents": [
+                "Frapp\u00e9 d'aveuglement",
+                "J\u00e9rusalem ou Rome?",
+                "La foi Biblique",
+                "La l\u00e9gende de Pierre",
+                "Proph\u00e9tie de Charles Price 1916",
+                "Editorial: Remerciements"
+            ],
+            "html": "lc_janvier_1973.htm",
+            "pdf": "lc_janvier_1973.pdf",
+            "epub": "lc_janvier_1973.epub"
+        },
+        {
+            "id": 5,
+            "date": "Juin 1973",
+            "contents": [
+                "Conduit par l\u0092Esprit de Dieu",
+                "Qu\u0092est-ce que la direction de l'Esprit",
+                "Mouvement charismatique",
+                "Ev\u00e8nements de ce temps",
+                "Communiqu\u00e9"
+            ],
+            "html": "lc_juin_1973.htm",
+            "pdf": "lc_juin_1973.pdf",
+            "epub": "lc_juin_1973.epub"
+        },
+        {
+            "id": 6,
+            "date": "Novembre 1973",
+            "contents": [
+                "Marche du croyant sous l'onction du Saint-Esprit",
+                "Travail missionnaire",
+                "Responsabilit\u00e9 commune",
+                "Informations"
+            ],
+            "html": "lc_novembre_1973.htm",
+            "pdf": "lc_novembre_1973.pdf",
+            "epub": "lc_novembre_1973.epub"
+        },
+        {
+            "id": 7,
+            "date": "Janvier 1974",
+            "contents": [
+                "Veillez donc et priez",
+                "Isra\u00ebl dans la proph\u00e9tie",
+                "Les 70 semaines de Daniel",
+                "Commencement des citations",
+                "Conclusion",
+                "Voeux de b\u00e9n\u00e9dictions",
+                "Editorial: L'enfant m\u00e2le"
+            ],
+            "html": "lc_janvier_1974.htm",
+            "pdf": "lc_janvier_1974.pdf",
+            "epub": "lc_janvier_1974.epub"
+        },
+        {
+            "id": 8,
+            "date": "Mars 1974",
+            "contents": [
+                "Fondation de l\u0092Eglise",
+                "Nouveau commencement",
+                "Emissions radiophoniques",
+                "Editorial: Gardez-vous des idoles"
+            ],
+            "html": "lc_mars_1974.htm",
+            "pdf": "lc_mars_1974.pdf",
+            "epub": "lc_mars_1974.epub"
+        },
+        {
+            "id": 9,
+            "date": "Juillet 1974",
+            "contents": [
+                "Au commencement",
+                "La patience",
+                "Editorial: Etre une nouvelle cr\u00e9ature"
+            ],
+            "html": "lc_juillet_1974.htm",
+            "pdf": "lc_juillet_1974.pdf",
+            "epub": "lc_juillet_1974.epub"
+        },
+        {
+            "id": 10,
+            "date": "Octobre 1974",
+            "contents": [
+                "Minist\u00e8re divin",
+                "Editorial: Ouvrier qualifi\u00e9"
+            ],
+            "html": "lc_octobre_1974.htm",
+            "pdf": "lc_octobre_1974.pdf",
+            "epub": "lc_octobre_1974.epub"
+        },
+        {
+            "id": 11,
+            "date": "Janvier 1975",
+            "contents": [
+                "La Parole immuable",
+                "Le sabbat",
+                "Exode des gens de l'Eglise",
+                "Nouvelles de la mission",
+                "Editorial: Conduits par l'Esprit"
+            ],
+            "html": "lc1.htm",
+            "pdf": "lc1.pdf",
+            "epub": "lc1.epub"
+        },
+        {
+            "id": 12,
+            "date": "Avril 1975",
+            "contents": [
+                "La r\u00e9colte est m\u00fbre / La moissonneuse-batteuse",
+                "Editorial: mise en garde envers le credo \u00abOrdres dans l'Eglise\u00bb"
+            ],
+            "html": "lc2.htm",
+            "pdf": "lc2.pdf",
+            "epub": "lc2.epub"
+        },
+        {
+            "id": 13,
+            "date": "Ao\u00fbt 1975",
+            "contents": [
+                "L\u0092ach\u00e8vement de l'oeuvre de Dieu",
+                "Etre assis dans la chaire de",
+                "Collaboration",
+                "Traduction",
+                "Copyright"
+            ],
+            "html": "lc3.htm",
+            "pdf": "lc3.pdf",
+            "epub": "lc3.epub"
+        },
+        {
+            "id": 14,
+            "date": "Novembre 1975",
+            "contents": [
+                "La lumi\u00e8re",
+                "L\u0092action de l\u0092Esprit de Dieu dans l\u0092Eglise",
+                "Editorial: Nouvelles des voyages"
+            ],
+            "html": "lc4.htm",
+            "pdf": "lc4.pdf",
+            "epub": "lc4.epub"
+        },
+        {
+            "id": 15,
+            "date": "F\u00e9vrier 1976",
+            "contents": [
+                "Le reste",
+                "Ev\u00e8nements actuels",
+                "Fin d'ann\u00e9e 1975"
+            ],
+            "html": "lc5.htm",
+            "pdf": "lc5.pdf",
+            "epub": "lc5.epub"
+        },
+        {
+            "id": 16,
+            "date": "Mai 1976",
+            "contents": [
+                "La Parole proph\u00e9tique",
+                "R\u00e9volte contre Dieu",
+                "Editorial: La bonne semence"
+            ],
+            "html": "lc6.htm",
+            "pdf": "lc6.pdf",
+            "epub": "lc6.epub"
+        },
+        {
+            "id": 17,
+            "date": "Juillet 1976",
+            "contents": [
+                "L\u0092unit\u00e9"
+            ],
+            "html": "lc7.htm",
+            "pdf": "lc7.pdf",
+            "epub": "lc7.epub"
+        },
+        {
+            "id": 18,
+            "date": "Septembre 1976",
+            "contents": [
+                "Le temps fix\u00e9 par Dieu",
+                "La charge confi\u00e9e \u00e9 l'Eglise"
+            ],
+            "html": "lc8.htm",
+            "pdf": "lc8.pdf",
+            "epub": "lc8.epub"
+        },
+        {
+            "id": 19,
+            "date": "Novembre 1976",
+            "contents": [
+                "T\u00e2ches du serviteur de Dieu",
+                "Editorial: R\u00e9sum\u00e9 d'une pr\u00e9dication de fr\u00e8re Frank \u00e0 Gen\u00e8ve"
+            ],
+            "html": "lc9.htm",
+            "pdf": "lc9.pdf",
+            "epub": "lc9.epub"
+        },
+        {
+            "id": 20,
+            "date": "Janvier 1977",
+            "contents": [
+                "Doctrines de Dieu",
+                "Directions Divines",
+                "L\u0092ann\u00e9e 1977",
+                "Ev\u00e8nements actuels",
+                "Editorial: Les choses cach\u00e9es / r\u00e9v\u00e9l\u00e9s"
+            ],
+            "html": "lc10.htm",
+            "pdf": "lc10.pdf",
+            "epub": "lc10.epub"
+        },
+        {
+            "id": 21,
+            "date": "Juin 1977",
+            "contents": [
+                "R\u00e9v\u00e9lation du Seigneur envers le peuple d\u0092Isra\u00ebl"
+            ],
+            "html": "lc11.htm",
+            "pdf": "lc11.pdf",
+            "epub": "lc11.epub"
+        },
+        {
+            "id": 22,
+            "date": "Octobre 1977",
+            "contents": [
+                "Attentifs \u00e0 la Parole",
+                "L\u0092appel de minuit",
+                "Editorial: Avertissement esprits s\u00e9ducteurs"
+            ],
+            "html": "lc12.htm",
+            "pdf": "lc12.pdf",
+            "epub": "lc12.epub"
+        },
+        {
+            "id": 23,
+            "date": "Janvier 1978",
+            "contents": [
+                "Le temps est-il proche, ou est-il l\u00e0?"
+            ],
+            "html": "lc13.htm",
+            "pdf": "lc13.pdf",
+            "epub": "lc13.epub"
+        },
+        {
+            "id": 24,
+            "date": "Juin 1978",
+            "contents": [
+                "Discernement v\u00e9ritables serviteurs",
+                "Isra\u00ebl et l'Eglise",
+                "Questions et r\u00e9ponses",
+                "Editorial: Brebis dans l'enclos de la Parole de Dieu"
+            ],
+            "html": "lc14.htm",
+            "pdf": "lc14.pdf",
+            "epub": "lc14.epub"
+        },
+        {
+            "id": 25,
+            "date": "Septembre 1978",
+            "contents": [
+                "Ne crains rien",
+                "Isra\u00ebl",
+                "Eglise",
+                "Perpl\u00e9xit\u00e9s",
+                "\u0093 vous sanctifie Lui-m\u00eame tout entiers \u0094"
+            ],
+            "html": "lc15.htm",
+            "pdf": "lc15.pdf",
+            "epub": "lc15.epub"
+        },
+        {
+            "id": 26,
+            "date": "Janvier 1979",
+            "contents": [
+                "Que toute la terre craigne l'Eternel",
+                "D\u00e9clarations du Seigneur",
+                "Un exemple de Paul",
+                "Jusqu\u0092\u00e0 quand encore?",
+                "Point de vue proph\u00e9tique!",
+                "Editorial: Nouvelles cr\u00e9atures"
+            ],
+            "html": "lc16.htm",
+            "pdf": "lc16.pdf",
+            "epub": "lc16.epub"
+        },
+        {
+            "id": 27,
+            "date": "Avril 1979",
+            "contents": [
+                "Prendre possession de son h\u00e9ritage",
+                "Comme au commencement",
+                "Ev\u00e8nements actuels"
+            ],
+            "html": "lc17.htm",
+            "pdf": "lc17.pdf",
+            "epub": "lc17.epub"
+        },
+        {
+            "id": 28,
+            "date": "Juin 1979",
+            "contents": [
+                "Marche selon l\u0092Esprit (Gal. 5)",
+                "Editorial: Amour pour Son Epoux"
+            ],
+            "html": "lc18.htm",
+            "pdf": "lc18.pdf",
+            "epub": "lc18.epub"
+        },
+        {
+            "id": 29,
+            "date": "Septembre 1979",
+            "contents": [
+                "Epreuve dans le service",
+                "Est-ce qu\u0092il y a des r\u00eaves qui viennent de Dieu?",
+                "L\u0092offrande"
+            ],
+            "html": "lc19.htm",
+            "pdf": "lc19.pdf",
+            "epub": "lc19.epub"
+        },
+        {
+            "id": 30,
+            "date": "Janvier 1980",
+            "contents": [
+                "Une g\u00e9n\u00e9ration spirituelle",
+                "Orientation spirituelle",
+                "La position de la femme du point de vue biblique",
+                "La vie personnelle",
+                "Editorial: Salutations"
+            ],
+            "html": "lc20.htm",
+            "pdf": "lc20.pdf",
+            "epub": "lc20.epub"
+        },
+        {
+            "id": 31,
+            "date": "Avril 1980",
+            "contents": [
+                "L\u0092ach\u00e8vement de l'Eglise des premiers-n\u00e9s (droit d'a\u00eenesse / premier-n\u00e9)",
+                "Editorial: Ach\u00e8vement de l'Epouse"
+            ],
+            "html": "lc21.htm",
+            "pdf": "lc21.pdf",
+            "epub": "lc21.epub"
+        },
+        {
+            "id": 32,
+            "date": "Juillet 1980",
+            "contents": [
+                "L\u0092unit\u00e9 divine",
+                "L\u0092h\u00e9ritage du Royaume (divers mise au point)",
+                "Adult\u00e8re, impudicit\u00e9, fornication",
+                "D\u00eeme",
+                "Editorial: Une femme entourera l\u0092homme"
+            ],
+            "html": "lc22.htm",
+            "pdf": "lc22.pdf",
+            "epub": "lc22.epub"
+        },
+        {
+            "id": 33,
+            "date": "Octobre 1980",
+            "contents": [
+                "La proph\u00e9tie devient r\u00e9alit\u00e9 (Isra\u00ebl)",
+                "Cr\u00e9ation d'assembl\u00e9e",
+                "Promesse de fidelit\u00e9",
+                "Editorial: Retour au premier amour"
+            ],
+            "html": "lc23.htm",
+            "pdf": "lc23.pdf",
+            "epub": "lc23.epub"
+        },
+        {
+            "id": 34,
+            "date": "D\u00e9cembre 1980",
+            "contents": [
+                "Perfectionnez-vous!",
+                "Qui est rempli du Saint-Esprit?",
+                "Etre enseigner de Dieu",
+                "Ce qui est charnel vient en premier",
+                "Le discernement est n\u00e9cessaire",
+                "Critiques des traductions",
+                "Editorial: Partager cette nourriture spirituelle"
+            ],
+            "html": "lc24.htm",
+            "pdf": "lc24.pdf",
+            "epub": "lc24.epub"
+        },
+        {
+            "id": 35,
+            "date": "F\u00e9vrier 1981",
+            "contents": [
+                "J\u00e9sus,Le crucifi\u00e9",
+                "La v\u00e9ritable sacrificature",
+                "L\u0092Interc\u00e9sseur",
+                "L\u0092Evangile du Royaume",
+                "D\u0092un m\u00eame pas",
+                "Editorial: R\u00e9flexions sur la polygamie, divorce, remariage.",
+                "Elaircissement sur le manger des animaux \u00e9touff\u00e9es et le sang"
+            ],
+            "html": "lc25.htm",
+            "pdf": "lc25.pdf",
+            "epub": "lc25.epub"
+        },
+        {
+            "id": 36,
+            "date": "Mai 1982",
+            "contents": [
+                "Vocation divines",
+                "Eclaircissement sur les 7 tonnerres"
+            ],
+            "html": "lc26.htm",
+            "pdf": "lc26.pdf",
+            "epub": "lc26.epub"
+        },
+        {
+            "id": 37,
+            "date": "Octobre 1982",
+            "contents": [
+                "Par la gr\u00e2ce de Dieu, je suis ce que je suis",
+                "Nouvelle de Voyage",
+                "Adieux \u00e0 des fr\u00e8res",
+                "Editorial: Rev\u00eatez-vous des armes de Dieu"
+            ],
+            "html": "lc27.htm",
+            "pdf": "lc27.pdf",
+            "epub": "lc27.epub"
+        },
+        {
+            "id": 38,
+            "date": "Mai 1983",
+            "contents": [
+                "Rassemble Mpon peuple",
+                "R\u00e9flexions"
+            ],
+            "html": "lc28.htm",
+            "pdf": "lc28.pdf",
+            "epub": "lc28.epub"
+        },
+        {
+            "id": 39,
+            "date": "Juin 1983",
+            "contents": [
+                "Libert\u00e9 spirituelle",
+                "Sanctifiation agr\u00e9able",
+                "Le corps en tant que temple de l'Esprit",
+                "Ev\u00e8nements particuliers"
+            ],
+            "html": "lc29.htm",
+            "pdf": "lc29.pdf",
+            "epub": "lc29.epub"
+        },
+        {
+            "id": 40,
+            "date": "Octobre 1983",
+            "contents": [
+                "Appel au r\u00e9veil",
+                "M\u00e9lange",
+                "Influence",
+                "Doctrines pernicieuses",
+                "Editorial: Salutations"
+            ],
+            "html": "lc30.htm",
+            "pdf": "lc30.pdf",
+            "epub": "lc30.epub"
+        },
+        {
+            "id": 41,
+            "date": "Janvier 1985",
+            "contents": [
+                "Prenez les armes de Dieu",
+                "Le retour de J\u00e9sus-Christ",
+                "Mise au point",
+                "Coup d'oeil retrospectif sur l'ann\u00e9e 1984",
+                "Editorial: Pr\u00e9paration de l'Epouse"
+            ],
+            "html": "lc31.htm",
+            "pdf": "lc31.pdf",
+            "epub": "lc31.epub"
+        },
+        {
+            "id": 42,
+            "date": "Janvier 1986",
+            "contents": [
+                "Accomplissement des promesses",
+                "Retour \u00e0 la Parole",
+                "Orientation spirituelle",
+                "Exhortation \u00e0 la sobri\u00e9t\u00e9",
+                "Regards en arri\u00e8re",
+                "Editorial: Famine spirituelle"
+            ],
+            "html": "lc32.htm",
+            "pdf": "lc32.pdf",
+            "epub": "lc32.epub"
+        },
+        {
+            "id": 43,
+            "date": "Janvier 1987",
+            "contents": [
+                "20 ans de travail missionnaire dans le monde entier"
+            ],
+            "html": "lc33.htm",
+            "pdf": "lc33.pdf",
+            "epub": "lc33.epub"
+        },
+        {
+            "id": 44,
+            "date": "Janvier 1988",
+            "contents": [
+                "Les oeuvres de Dieu",
+                "R\u00e9p\u00e9tition d\u0092un \u00e9claircisssement",
+                "Pr\u00e9diction pour la fin des temps",
+                "La menace du jugement",
+                "Editorial: De quelle c\u00f4t\u00e9?"
+            ],
+            "html": "lc34.htm",
+            "pdf": "lc34.pdf",
+            "epub": "lc34.epub"
+        },
+        {
+            "id": 45,
+            "date": "Janvier 1989",
+            "contents": [
+                "Eternel, ravive ton oeuvre",
+                "Mod\u00e8le du Nouveau Testament",
+                "Seul Dieu est infaillible",
+                "Ach\u00e8vement de l'oeuvre",
+                "Travail en commun",
+                "Editorial: Le Signe"
+            ],
+            "html": "lc35.htm",
+            "pdf": "lc35.pdf",
+            "epub": "lc35.epub"
+        },
+        {
+            "id": 46,
+            "date": "Janvier 1990",
+            "contents": [
+                "Question: Comment doit-on appliquer le Sang de Christ?",
+                "Signe des temps",
+                "Atmosph\u00e8re d\u0092insurrection",
+                "Editorial: De quelle c\u00f4t\u00e9?"
+            ],
+            "html": "lc36.htm",
+            "pdf": "lc36.pdf",
+            "epub": "lc36.epub"
+        },
+        {
+            "id": 47,
+            "date": "Janvier 1991",
+            "contents": [
+                "La circoncision du coeur",
+                "Mise en place des aiguillages (Europe)"
+            ],
+            "html": "lc37.htm",
+            "pdf": "lc37.pdf",
+            "epub": "lc37.epub"
+        },
+        {
+            "id": 48,
+            "date": "Janvier 1992",
+            "contents": [
+                "Eprouve-moi"
+            ],
+            "html": "lc38.htm",
+            "pdf": "lc38.pdf",
+            "epub": "lc38.epub"
+        },
+        {
+            "id": 49,
+            "date": "Janvier 1993",
+            "contents": [
+                "Promesses / Accomplissement",
+                "Mariage et divorce",
+                "D\u00eemes"
+            ],
+            "html": "lc39.htm",
+            "pdf": "lc39.pdf",
+            "epub": "lc39.epub"
+        },
+        {
+            "id": 50,
+            "date": "Mai 1993",
+            "contents": [
+                "D\u00e9vellopement spirituel",
+                "Entra\u00een\u00e9s \u00e9galement par l'esprit de ce temps",
+                "Le t\u00e9moignage \u00e9ternellement valable des Ecritures",
+                "Il y a aussi un bapt\u00eame antichrist",
+                "Solennel avertissement",
+                "Importance de la Parole proph\u00e9tique"
+            ],
+            "html": "lc40.htm",
+            "pdf": "lc40.pdf",
+            "epub": "lc40.epub"
+        },
+        {
+            "id": 51,
+            "date": "Janvier 1994",
+            "contents": [
+                "S'observer dans le miroir de la Parole",
+                "La r\u00e9ponse Divine dans l'Eglise",
+                "Multiplicit\u00e9 des t\u00e2ches",
+                "Editorial: Combattre pour la foi"
+            ],
+            "html": "lc41.htm",
+            "pdf": "lc41.pdf",
+            "epub": "lc41.epub"
+        },
+        {
+            "id": 52,
+            "date": "Mai 1994",
+            "contents": [
+                "Les 70 semaines de Daniel",
+                "Editorial: La v\u00e9rit\u00e9 dans le coeur"
+            ],
+            "html": "lc42.htm",
+            "pdf": "lc42.pdf",
+            "epub": "lc42.epub"
+        },
+        {
+            "id": 53,
+            "date": "Janvier 1995",
+            "contents": [
+                "La Parole de Dieu demeure \u00e0 toujours",
+                "Exp\u00e9rience personnel",
+                "Cela est r\u00e9ellement arriv\u00e9",
+                "Doctrine et connaissance",
+                "Juste jugement",
+                "La position juste",
+                "Minist\u00e8re fond\u00e9 bibliquement",
+                "Union Europ\u00e9enne",
+                "L'oppression viendra",
+                "Isra\u00ebl sous le feu de la rampe",
+                "Fin d\u0092ann\u00e9e",
+                "Editorial: Enfants prodigues"
+            ],
+            "html": "lc43.htm",
+            "pdf": "lc43.pdf",
+            "epub": "lc43.epub"
+        },
+        {
+            "id": 54,
+            "date": "Mai 1995",
+            "contents": [
+                "Elus avant la fondation du monde",
+                "Une correction importante",
+                "Le nom du Seigneur",
+                "Confession des p\u00e9ch\u00e9s",
+                "Charismatisme \u0096 B\u00e9n\u00e9diction de Toronto",
+                "Europe \u0096 Vatican \u0096 Isra\u00ebl",
+                "Editorial: Mise en garde sur les s\u00e9ducteurs"
+            ],
+            "html": "lc44.htm",
+            "pdf": "lc44.pdf",
+            "epub": "lc44.epub"
+        },
+        {
+            "id": 55,
+            "date": "Janvier 1996",
+            "contents": [
+                "La d\u00e9sob\u00e9issance et l'ob\u00e9issance",
+                "Combler la coupe",
+                "Le crucifix est-il un signe chr\u00e9tien?",
+                "Nouvelles missionnaires"
+            ],
+            "html": "lc45.htm",
+            "pdf": "lc45.pdf",
+            "epub": "lc45.epub"
+        },
+        {
+            "id": 56,
+            "date": "Juin 1996",
+            "contents": [
+                "Ne crains point!",
+                "L\u0092argumentation",
+                "Le retour de Christ",
+                "Trente ans dans le service",
+                "Editorial: La continuit\u00e9 de Son oeuvre par Son Esprit"
+            ],
+            "html": "lc46.htm",
+            "pdf": "lc46.pdf",
+            "epub": "lc46.epub"
+        },
+        {
+            "id": 57,
+            "date": "Janvier 1997",
+            "contents": [
+                "Compr\u00e9hension juste de la Parole",
+                "Du point de vue biblique",
+                "Nouvelle du monde entier",
+                "Nouvelles missionnaires"
+            ],
+            "html": "lc47.htm",
+            "pdf": "lc47.pdf",
+            "epub": "lc47.epub"
+        },
+        {
+            "id": 58,
+            "date": "F\u00e9vrier 1998",
+            "contents": [
+                "En vertu de la Parole",
+                "Exp\u00e9rience particuli\u00e8re",
+                "R\u00e9cits de t\u00e9moins oculaires",
+                "Quelque chose se fait",
+                "Le temps est proche",
+                "Isra\u00ebl",
+                "L'Europe Unie",
+                "La panique envers les sectes",
+                "Compte-rendu de la mission",
+                "Editorial: Ecoute !",
+                "Communiqu\u00e9"
+            ],
+            "html": "lc48.htm",
+            "pdf": "lc48.pdf",
+            "epub": "lc48.epub"
+        },
+        {
+            "id": 59,
+            "date": "Mai 1998",
+            "contents": [
+                "Reconna\u00eetre l'envoy\u00e9 de Dieu",
+                "Les puissances s'annoncent",
+                "J\u00e9rusalem est-elle en l'an 2000 ou 6000?",
+                "D\u00e9veloppement du temps de la fin",
+                "R\u00e9ponse \u00e0 diverses questions",
+                "Nouvelles missionnaires"
+            ],
+            "html": "lc49.htm",
+            "pdf": "lc49.pdf",
+            "epub": "lc49.epub"
+        },
+        {
+            "id": 60,
+            "date": "Janvier 1999",
+            "contents": [
+                "La haine",
+                "Th\u00e8me \u00abJugement\u00bb",
+                "Developpement mondial",
+                "L\u0092Union europ\u00e9enne",
+                "Remerciements"
+            ],
+            "html": "lc50.htm",
+            "pdf": "lc50.pdf",
+            "epub": "lc50.epub"
+        },
+        {
+            "id": 61,
+            "date": "Janvier 2000",
+            "contents": [
+                "Mon t\u00e9moignage",
+                "Isra\u00ebl dans la proph\u00e9tie",
+                "Compte-rendus des voyages",
+                "Communiqu\u00e9",
+                "Editorial: S\u00e9paration"
+            ],
+            "html": "lc51.htm",
+            "pdf": "lc51.pdf",
+            "epub": "lc51.epub"
+        },
+        {
+            "id": 62,
+            "date": "Avril 2001",
+            "contents": [
+                "40 ann\u00e9es particuli\u00e8res"
+            ],
+            "html": "lc52.htm",
+            "pdf": "lc52.pdf",
+            "epub": "lc52.epub"
+        },
+        {
+            "id": 63,
+            "date": "F\u00e9vrier 2002",
+            "contents": [
+                "L'\u00e9criture f\u00fbt accomplie",
+                "Le Seigneur parle avec nous",
+                "Le glorieux \u00e9v\u00e8nement",
+                "Apocalypse 10",
+                "Le compte \u00e0 rebours court",
+                "Missions par TV",
+                "Communiqu\u00e9"
+            ],
+            "html": "lc53.htm",
+            "pdf": "lc53.pdf",
+            "epub": "lc53.epub"
+        },
+        {
+            "id": 64,
+            "date": "F\u00e9vrier 2003",
+            "contents": [
+                "Celui qui vaincra",
+                "Le temps est tout proche",
+                "Le r\u00e9tablissement du quatri\u00e8me empire",
+                "L'\u00e9glise et la haine des juifs",
+                "La fin est-elle en vue?"
+            ],
+            "html": "lc54.htm",
+            "pdf": "lc54.pdf",
+            "epub": "lc54.epub"
+        },
+        {
+            "id": 65,
+            "date": "F\u00e9vrier 2004",
+            "contents": [
+                "Le Seigneur ne tarde pas",
+                "Tr\u00e8s important",
+                "La m\u00eame chose ne se r\u00e9p\u00e8te-t-elle pas exactement maintenant?",
+                "D\u00e9cisions divines",
+                "Faits convaincants",
+                "Le th\u00e8me particulier",
+                "Comparaison",
+                "En v\u00e9rit\u00e9, en v\u00e9rit\u00e9, je vous le dis",
+                "Ev\u00e9nements actuels",
+                "Bien des remerciements",
+                "Suppl\u00e9ment",
+                "Editorial: Votre attention S.V.P."
+            ],
+            "html": "lc55.htm",
+            "pdf": "lc55.pdf",
+            "epub": "lc55.epub"
+        },
+        {
+            "id": 66,
+            "date": "Janvier 2005",
+            "contents": [
+                "Edition sp\u00e9ciale d\u00e9cisive",
+                "L'oeuvre de Dieu jusqu'\u00e0 l'ach\u00e8vement",
+                "Deux signes de l\u00e9gitimation",
+                "Apr\u00e8s \u00eatre sorti, il s'agit d'entrer",
+                "Les Saintes Ecritures, la tradition et les interpr\u00e9tations",
+                "L\u0092heure de la tentation",
+                "La moisson est m\u00fbre",
+                "Ev\u00e8nements actuels",
+                "Encore un court rapport missionnaire",
+                "Ma visite \u00e0 Jeffersonville",
+                "Un tr\u00e8s chaleureux merci beaucoup",
+                "Une tr\u00e8s bonne nouvelle",
+                "Editorial: La paille et le froment",
+                "Communiqu\u00e9"
+            ],
+            "html": "lc56.htm",
+            "pdf": "lc56.pdf",
+            "epub": "lc56.epub"
+        },
+        {
+            "id": 67,
+            "date": "Printemps 2005",
+            "contents": [
+                "Le cri de r\u00e9veil de minuit",
+                "Isra\u00ebl et son chemin douloureux",
+                "Editorial: La gr\u00e2ce et la v\u00e9rit\u00e9"
+            ],
+            "html": "lc57.htm",
+            "pdf": "lc57.pdf",
+            "epub": "lc57.epub"
+        },
+        {
+            "id": 68,
+            "date": "Novembre 2005",
+            "contents": [
+                "Appel au r\u00e9veil",
+                "Le compte \u00e0 rebours a-t-il commenc\u00e9?"
+            ],
+            "html": "lc58.htm",
+            "pdf": "lc58.pdf",
+            "epub": "lc58.epub"
+        },
+        {
+            "id": 69,
+            "date": "F\u00e9vrier 2006",
+            "contents": [
+                "40 ann\u00e9es de l\u0092oeuvre missionnaire"
+            ],
+            "html": "lc59.htm",
+            "pdf": "lc59.pdf",
+            "epub": "lc59.epub"
+        },
+        {
+            "id": 70,
+            "date": "Avril 2006",
+            "contents": [
+                "Tu es digne",
+                "Un coup d'oeil \u00e0 l\u0092int\u00e9rieur",
+                "L\u0092Islam au centre de l'attention",
+                "R\u00e9sum\u00e9",
+                "Indication",
+                "Voyages missionnaires"
+            ],
+            "html": "lc60.htm",
+            "pdf": "lc60.pdf",
+            "epub": "lc60.epub"
+        },
+        {
+            "id": 71,
+            "date": "F\u00e9vrier 2007",
+            "contents": [
+                "Mon peuple qui n'\u00e9tait pas Mon peuple",
+                "Sa volont\u00e9 s'accomplit dans les siens",
+                "Unit\u00e9 aux d\u00e9pens de la V\u00e9rit\u00e9",
+                "Aucune unit\u00e9 au prix de la v\u00e9rit\u00e9",
+                "Ev\u00e8nements actuels",
+                "Toujours de nouvelles interpr\u00e9tations"
+            ],
+            "html": "lc61.htm",
+            "pdf": "lc61.pdf",
+            "epub": "lc61.epub"
+        },
+        {
+            "id": 72,
+            "date": "Avril 2007",
+            "contents": [
+                "La vraie confession",
+                "Le monde entier dans une seule main",
+                "L'heure de l\u0092\u00e9preuve",
+                "Le temps de nettoyer les lampes"
+            ],
+            "html": "lc62.htm",
+            "pdf": "lc62.pdf",
+            "epub": "lc62.epub"
+        }
+    ]
+}

@@ -1,10 +1,13 @@
 import datetime
 import json
+import os.path
+import re
 from pprint import pprint
 
 import requests
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup, ResultSet
 
+BASE_URL = "http://www.cmpp.ch/"
 
 def scrap_brochures(html: str):
     soup = BeautifulSoup(html, "html.parser")
@@ -27,7 +30,7 @@ def scrap_brochures(html: str):
     brochure_tables.pop()
 
     data = {
-        "last_update": datetime.datetime.utcnow(),
+        "last_update": datetime.datetime.utcnow().isoformat(),
         "authors": [
             {"id": 1,
              "name": "William Branham"
@@ -93,6 +96,7 @@ def scrap_brochures(html: str):
                         pdf = epub = False
 
                     books.append({
+                        "id": len(books) + 1,
                         "author_id": author_id,
                         "category_id": category.get("id"),
                         "title": title,
@@ -104,7 +108,7 @@ def scrap_brochures(html: str):
     data["categories"] = categories
     data["books"] = books
 
-    with open("brochures.json", "w", encoding="utf8") as file:
+    with open("brochures.json", "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4)
 
 
@@ -118,33 +122,41 @@ def scrap_letters(html):
     rows = table.find_all("tr")[3:]
 
     data = {
-        "last_update": datetime.datetime.utcnow(),
+        "last_update": datetime.datetime.utcnow().isoformat(),
         "letters": []
     }
 
     letters = []
 
+    i = 0
     for row in rows:
         tds = row.find_all("td")
+
+        date = " ".join(tds[1].text.split())
+        text = tds[2].find("font").text.replace("\x97", "|")
+        text = " ".join(text.split())
+        contents = [t.strip() for t in text.split("|")[1:]]
+
         letter = {
             "id": len(letters) + 1,
-            "date": tds[1].text.strip(),
-            "content":tds[2].text.strip(),
-            "html": tds[3].find("a").get("href"),
-            "pdf": tds[4].find("a").get("href"),
-            "epub": tds[5].find("a").get("href"),
+            "date": date,
+            "contents": contents,
+            "html": tds[3].find("a").get("href").replace(BASE_URL, ""),
+            "pdf": tds[4].find("a").get("href").replace(BASE_URL, ""),
+            "epub": tds[5].find("a").get("href").replace(BASE_URL, ""),
 
         }
         letters.append(letter)
+
     data["letters"] = letters
 
-    with open("letters", "w", encoding="utf8") as file:
+    with open("letters.json", "w", encoding="utf-8") as file:
         json.dump(data, file, indent=4)
 
 
-if __name__ == "__main__":
-    brochures_url = "http://localhost:63342/TckScrapper/brochures.htm"
-    letters_url = "http://localhost:63342/TckScrapper/lettre_circulaire.htm"
+def scrap():
+    brochures_url = "http://cmpp.ch//brochures.htm"
+    letters_url = "http://cmpp.ch//lettre_circulaire.htm"
 
     try:
         brochures = requests.get(brochures_url)
@@ -158,4 +170,85 @@ if __name__ == "__main__":
         lt = letters.text
         scrap_brochures(br)
         scrap_letters(lt)
+
+
+def get_books():
+    with open("brochures.json", "r") as file:
+        data = json.load(file)
+    return data.get("books")
+
+def extract_images(html):
+    soup = BeautifulSoup(html, "html.parser")
+    imgs = soup.find_all("img")
+    images = [img.get("src") for img in imgs]
+    return images
+
+
+def get_letters():
+    with open("letters.json", "r", encoding="utf-8") as file:
+        data = json.load(file)
+
+    return data.get("letters")
+
+
+def download(filename: str, dir: str):
+    with requests.get(f"{BASE_URL}{filename}", stream=True) as response:
+        response.raise_for_status()
+        with open(os.path.join(dir, filename), "wb") as file:
+            for chunk in response.iter_content(8192):
+                file.write(chunk)
+
+
+def save_html(filename, dir):
+    response = requests.get(f"{BASE_URL}{filename}")
+    response.raise_for_status()
+
+    filename = f"{os.path.splitext(filename)[0]}.html"
+    with open(os.path.join(dir, filename), "w", encoding="utf-8") as file:
+        # Save html file
+        file.write(response.text)
+
+        # Save images in html
+        for img in extract_images(response.text):
+            download(img, dir)
+
+
+def download_letters():
+    letters = get_letters()
+    # for letter in letters:
+    #     print(f"Downloading letter pdf #{letter.get('id')} of {len(letters)}")
+    #     download(letter.get("pdf"), "letters/pdf")
+    #
+    # for letter in letters:
+    #     print(f"Downloading letter epub #{letter.get('id')} of {len(letters)}")
+    #     download(letter.get("epub"), "letters/epub")
+
+    for letter in letters:
+        print(f"Downloading letter html #{letter.get('id')} of {len(letters)}")
+        save_html(letter.get("html"), "letters/html")
+
+
+def download_books():
+    books = get_books()
+    for book in books:
+        if book.get("pdf"):
+            print(f"Downloading pdf book #{book.get('id')} of {len(books)}")
+            download(book.get("pdf"), "brochures/pdf")
+
+    for book in books:
+        if book.get("epub"):
+            print(f"Downloading epub book #{book.get('id')} of {len(books)}")
+            download(book.get("epub"), "brochures/epub")
+
+    for book in books:
+        print(f"Downloading html book #{book.get('id')} of {len(books)}")
+        save_html(book.get("html"), "brochures/html")
+
+
+if __name__ == "__main__":
+    # scrap()
+    download_letters()
+    # download_books()
+
+
 
