@@ -26,54 +26,80 @@ def scrap_brochures(html: str):
 
     data = {
         "authors": [
-            {"name": "William Branham"},
-            {"name": "Ewald Franck"},
-            {"name": "Traités"},
-            {"name": "Autres auteurs"},
+            {"id": 1,
+             "name": "William Branham"
+             },
+            {"id": 2,
+             "name": "Ewald Franck"
+             },
+            {"id": 3,
+             "name": "Traités"
+             },
+            {"id": 4,
+             "name": "Autres auteurs"
+             },
         ],
+        "categories": [],
+        "books": [],
     }
 
-    author_index = 0
+    categories = []
     books = []
 
     for table in all_tables:
         if table in author_tables:
-            author_table = author_tables[author_index]
-            author_name = data["authors"][author_index]["name"]
-            author_index += 1
+            author_id = data["authors"][author_tables.index(table)].get("id")
 
         elif table in brochure_tables:
-            category = table.find("tr").text.replace("\n", "")
-            if category == "Traités":
-                start_index = 5
+            category_name = ' '.join(table.find("tr").text.split())
+            category = {
+                "id": len(categories) + 1,
+                "name": category_name,
+            }
+
+            if category.get("name") in [c.get("name") for c in categories]:
+                for c in categories:
+                    if c.get("name") == category.get("name"):
+                        category = c
             else:
-                start_index = 4
+                categories.append(category)
 
-            rows = table.find_all("tr")[start_index:]
+            if category.get("name") == "Traités":
+                row_start_index = 4
+            else:
+                row_start_index = 3
+            if category.get("name") == "Hors série…" or author_id != 1:
+                col_start_index = 0
+            else:
+                col_start_index = 1
 
+            rows = table.find_all("tr")[row_start_index:]
 
             for row in rows:
                 tds = row.find_all("td")
-                if author_name.startswith("William"):
+                if len(tds) > 2:
+                    title = " ".join(tds[col_start_index].find("p").text.split())
+                    html = tds[col_start_index+1].find("a").get("href")
+                    try:
+                        pdf = tds[col_start_index+2].find("a").get("href")
+                        if category.get("name") != "Traités":
+                            epub = tds[col_start_index+3].find("a").get("href")
+                        else:
+                            epub = tds[col_start_index+4].find("a").get("href")
+                    except (AttributeError, IndexError):
+                        pdf = epub = False
+
                     books.append({
-                        "title": tds[1].find("font").text.strip(),
-                        "html": tds[2].find("a").get("href"),
-                        "pdf": tds[3].find("a").get("href") if tds[3].find("a").text == "Imprimer" else "En cours",
-                        "epub": tds[4].find("a").get("href") if tds[4].find("a").text == "Télécharger" else "En cours",
-                        "category": category,
-                        "author": author_name,
-                    })
-                else:
-                    books.append({
-                        "title": tds[0].find("font").text.strip(),
-                        "html": tds[1].find("a").get("href"),
-                        "pdf": tds[2].find("a").get("href") if tds[2].find("a").text == "Imprimer" else "En cours",
-                        "epub": tds[3].find("a").get("href") if tds[3].find("a").text == "Télécharger" else "En cours",
-                        "category": category,
-                        "author": author_name,
+                        "author_id": author_id,
+                        "category_id": category.get("id"),
+                        "title": title,
+                        "html": html,
+                        "pdf": pdf,
+                        "epub": epub,
                     })
 
-    pprint(books)
+    data["categories"] = categories
+    data["books"] = books
 
 
 if __name__ == "__main__":
