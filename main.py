@@ -1,3 +1,5 @@
+import datetime
+import json
 from pprint import pprint
 
 import requests
@@ -25,6 +27,7 @@ def scrap_brochures(html: str):
     brochure_tables.pop()
 
     data = {
+        "last_update": datetime.datetime.utcnow(),
         "authors": [
             {"id": 1,
              "name": "William Branham"
@@ -101,24 +104,58 @@ def scrap_brochures(html: str):
     data["categories"] = categories
     data["books"] = books
 
+    with open("brochures.json", "w", encoding="utf8") as file:
+        json.dump(data, file, indent=4)
+
+
+def scrap_letters(html):
+    soup = BeautifulSoup(html, "html.parser")
+
+    tables = soup.find_all("table")
+
+    # The table containing letters is the second
+    table = tables[1]
+    rows = table.find_all("tr")[3:]
+
+    data = {
+        "last_update": datetime.datetime.utcnow(),
+        "letters": []
+    }
+
+    letters = []
+
+    for row in rows:
+        tds = row.find_all("td")
+        letter = {
+            "id": len(letters) + 1,
+            "date": tds[1].text.strip(),
+            "content":tds[2].text.strip(),
+            "html": tds[3].find("a").get("href"),
+            "pdf": tds[4].find("a").get("href"),
+            "epub": tds[5].find("a").get("href"),
+
+        }
+        letters.append(letter)
+    data["letters"] = letters
+
+    with open("letters", "w", encoding="utf8") as file:
+        json.dump(data, file, indent=4)
+
 
 if __name__ == "__main__":
-    with open("brochures.html", "r") as file:
-        html = file.read()
-        scrap_brochures(html)
+    brochures_url = "http://localhost:63342/TckScrapper/brochures.htm"
+    letters_url = "http://localhost:63342/TckScrapper/lettre_circulaire.htm"
 
-    # url = "http://cmpp.ch//brochures.htm"
-    # url2 = "http://cmpp.ch//lettre_circulaire.htm"
-    #
-    # try:
-    #     response = requests.get(url)
-    #     html = response.text
-    #     with open("brochures.html", "w") as file:
-    #         file.write(html)
-    # except requests.RequestException as e:
-    #     print(f"Error: {e}")
-    #
-    # else:
-    #     with open("brochures.html", "r") as file:
-    #         html = file.read()
-    #         scrap(html)
+    try:
+        brochures = requests.get(brochures_url)
+        letters = requests.get(letters_url)
+        brochures.raise_for_status()
+        letters.raise_for_status()
+    except requests.RequestException as e:
+        print(f"[Error] {e}")
+    else:
+        br = brochures.text
+        lt = letters.text
+        scrap_brochures(br)
+        scrap_letters(lt)
+
