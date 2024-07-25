@@ -230,25 +230,25 @@ def download_letters():
 
 def download_books():
     books = get_books()
-    for book in books:
-        if book.get("pdf"):
-            print(f"Downloading pdf book #{book.get('id')} of {len(books)}")
-            download(book.get("pdf"), "brochures/pdf")
+    # for book in books:
+    #     if book.get("pdf"):
+    #         print(f"Downloading pdf book #{book.get('id')} of {len(books)}")
+    #         download(book.get("pdf"), "brochures/pdf")
+    #
+    # for book in books:
+    #     if book.get("epub"):
+    #         print(f"Downloading epub book #{book.get('id')} of {len(books)}")
+    #         download(book.get("epub"), "brochures/epub")
 
-    for book in books:
-        if book.get("epub"):
-            print(f"Downloading epub book #{book.get('id')} of {len(books)}")
-            download(book.get("epub"), "brochures/epub")
-
-    for book in books:
+    for book in books[99:]:
         print(f"Downloading html book #{book.get('id')} of {len(books)}")
         save_html(book.get("html"), "brochures/html")
 
 
 if __name__ == "__main__":
     # scrap()
-    download_letters()
-    # download_books()
+    # download_letters()
+    download_books()
 
 
 
