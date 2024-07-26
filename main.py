@@ -200,17 +200,23 @@ def download(filename: str, dir: str):
 
 
 def save_html(filename, dir):
-    response = requests.get(f"{BASE_URL}{filename}")
-    response.raise_for_status()
+    try:
+        response = requests.get(f"{BASE_URL}{filename}")
+        response.raise_for_status()
 
-    filename = f"{os.path.splitext(filename)[0]}.html"
-    with open(os.path.join(dir, filename), "w", encoding="utf-8") as file:
-        # Save html file
-        file.write(response.text)
+        filename = f"{os.path.splitext(filename)[0]}.html"
+        path = os.path.join(dir, filename)
+        os.makedirs(os.path.dirname(path), exist_ok=True)
 
-        # Save images in html
-        for img in extract_images(response.text):
-            download(img, dir)
+        with open(os.path.join(dir, filename), "w", encoding="utf-8") as file:
+            # Save html file
+            file.write(response.text)
+
+            # Save images in html
+            for img in extract_images(response.text):
+                download(img, dir)
+    except requests.RequestException as e:
+        print(f"[Error]: {e}")
 
 
 def download_letters():
@@ -240,7 +246,7 @@ def download_books():
     #         print(f"Downloading epub book #{book.get('id')} of {len(books)}")
     #         download(book.get("epub"), "brochures/epub")
 
-    for book in books[99:]:
+    for book in books[116:]:
         print(f"Downloading html book #{book.get('id')} of {len(books)}")
         save_html(book.get("html"), "brochures/html")
 
