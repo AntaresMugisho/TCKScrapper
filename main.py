@@ -1,7 +1,9 @@
 import datetime
 import json
 import os.path
+from pprint import pprint
 
+import pymysql
 import requests
 from bs4 import BeautifulSoup
 
@@ -257,6 +259,72 @@ if __name__ == "__main__":
     scrap()
     download_letters()
     download_books()
+
+    # conn = pymysql.connect(host="localhost", user="root", password="", database="tck")
+    # created_at = datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M:%S")
+    #
+    # with open("brochures.json", "r") as file:
+    #     data = json.load(file)
+    #
+    #     categories = data["categories"]
+    #     authors = data["authors"]
+    #     books = data["books"]
+    #
+    # with conn.cursor() as cursor:
+    #     # INSERT CATEGORIES
+    #     sql = """INSERT INTO categories (id, type, name) VALUES (%s, %s, %s)"""
+    #     data = []
+    #     for category in categories:
+    #         data.append((category['id'], 'brochure', category['name']))
+    #     # -------------------------------------------------------------------
+    #
+    #     # INSERT AUTHORS
+    #     sql1 = """INSERT INTO authors (id, name, created_at, updated_at) VALUES (%s, %s, %s, %s)"""
+    #     data1 = []
+    #     for author in authors:
+    #         data1.append((author['id'], author['name'], created_at, created_at))
+    #     # -------------------------------------------------------------------
+    #
+    #     # INSERT BOOKS
+    #     sql2 = """INSERT INTO brochures (id, author_id, category_id, title, html, pdf, epub, created_at, updated_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s, %s)"""
+    #     data2 = []
+    #     for book in books:
+    #         pdf = book['pdf'] if book['pdf'] else None
+    #         epub = book['epub'] if book['epub'] else None
+    #
+    #         data2.append((book['id'], book['author_id'], book["category_id"], book["title"], book["html"], pdf, epub, created_at, created_at))
+    #     # -------------------------------------------------------------------
+    #
+    #     # INSERT LETTERS
+    #     sql3 = """INSERT INTO letters (id, date, contents, html, pdf, epub, created_at, updated_at) VALUES (%s, %s, %s, %s, %s, %s, %s, %s)"""
+    #     data3 = []
+    #     for letter in get_letters():
+    #         pdf = letter['pdf'] if letter['pdf'] else None
+    #         epub = letter['epub'] if letter['epub'] else None
+    #         contents = json.dumps(letter["contents"])
+    #
+    #         data3.append(
+    #             (letter['id'], letter['date'], contents, letter["html"], pdf, epub, created_at, created_at)
+    #         )
+    #     # -------------------------------------------------------------------
+    #
+    #     try:
+    #         cursor.executemany(sql, data)
+    #         cursor.executemany(sql1, data1)
+    #         cursor.executemany(sql2, data2)
+    #         cursor.executemany(sql3, data3)
+    #         conn.commit()
+    #     except pymysql.MySQLError as e:
+    #         print(f"[Error] : {e}")
+    #         if conn:
+    #             conn.rollback()
+    #     finally:
+    #         if conn:
+    #             conn.close()
+
+
+
+
 
 
 
